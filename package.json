@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "deploy": "pnpm build && ntl deploy --prod -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
